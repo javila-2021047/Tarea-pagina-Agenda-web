@@ -1,0 +1,126 @@
+.user-profile {
+    font-weight: bold;
+  }
+  .user-profile .user-profile-body,
+  .user-profile {
+    background-color:#0f2537;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-profile .header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#4c9be8, transparent);
+    margin-bottom: 1.25rem;
+  }
+  .user-profile .cover {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 16rem;
+    background: linear-gradient(100deg, #4c9be8,#4c9be8);
+    border-radius: 0 0 20px 20px;
+  }
+  .user-profile .user-profile-body {
+    width: 70%;
+    position: relative;
+    max-width: 750px;
+    background-color:#0f2537;
+  }
+  .user-profile .user-profile-body .titulo {
+    display: block;
+    width: 100%;
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-profile .user-profile-footer,
+  .user-profile .user-profile-bio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .user-profile .user-profile-bio {
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+  .user-profile .data-list {
+    width: 80%;
+    list-style: none;
+  }
+  .user-profile .data-list li {
+    padding: 10px 0;
+  }
+  .user-profile .cover,
+  .user-profile .user-profile-body {
+    width: 95%;
+  }
+  .perfil-usuario-avatar {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 90px);
+    z-index: 1;
+  }
+  
+  .perfil-usuario-avatar img {
+    width: 100%;
+    position: relative;
+ 
+    
+  }
+  .user-profile .perfil-usuario-avatar .boton-avatar {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .body{
+    background-color:#0f2537;
+  }
+  .form-label{
+    color: black;
+  }
+  
+  #favorito{
+    color: black  ;
+  }
+
+  #flexCheckDefault{
+    
+    
+    border: 2px solid #0f2537;
+  
+  }
+  #notis{
+    color: black;
+  }
+  #flexSwitchCheckDefault{
+    border: 2px solid #0f2537;
+  }
+  .guardar{
+    padding-left: 110%;
+  }
+
+  .regresar{
+    padding-left: 2%;
+  }
